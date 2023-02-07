@@ -1,0 +1,41 @@
+// Colors variables
+
+// Primary colors
+$primary-light-cyan: hsl(193, 38%, 86%);
+$primary-neon-green: hsl(150, 100%, 66%);
+
+// Neutral colors
+$neutral-grayish-blue: hsl(217, 19%, 38%);
+$neutral-dark-grayish-blue: hsl(217, 19%, 24%);
+$neutral-dark-blue: hsl(218, 23%, 16%);
+
+//Fonts
+
+$font-manrope: 'Manrope', sans-serif;
+
+.wrap {
+  position: absolute;
+  background-color: $neutral-dark-blue;
+  inset: 0;
+}
+
+.modal {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  right: initial;
+  bottom: initial;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: $font-manrope;
+  font-weight: 800;
+
+  .modal__header {
+    color: $primary-neon-green;
+    font-size: 11px;
+  }
+
+  .modal__blockquote {
+    color: $primary-light-cyan;
+  }
+}
